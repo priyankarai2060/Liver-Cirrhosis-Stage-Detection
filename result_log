@@ -1,0 +1,36 @@
+model_used : LogisticRegression
+              precision    recall  f1-score   support
+
+           1       0.58      0.60      0.59      1657
+           2       0.53      0.51      0.52      1697
+           3       0.68      0.69      0.68      1646
+
+    accuracy                           0.60      5000
+   macro avg       0.60      0.60      0.60      5000
+weighted avg       0.59      0.60      0.60      5000
+
+
+model_used : RandomForestClassifier
+              precision    recall  f1-score   support
+
+           1       0.97      0.94      0.95      1657
+           2       0.94      0.96      0.95      1697
+           3       0.97      0.97      0.97      1646
+
+    accuracy                           0.96      5000
+   macro avg       0.96      0.96      0.96      5000
+weighted avg       0.96      0.96      0.96      5000
+
+
+model_used : XGBClassifier
+              precision    recall  f1-score   support
+
+           1       0.97      0.96      0.96      1657
+           2       0.95      0.97      0.96      1697
+           3       0.98      0.97      0.97      1646
+
+    accuracy                           0.97      5000
+   macro avg       0.97      0.97      0.97      5000
+weighted avg       0.97      0.97      0.97      5000
+
+
